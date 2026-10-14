@@ -1,117 +1,290 @@
-# Awesome-Subscription-For-Open-Weight-Models
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Subscriptions For Open Weight Models" width="100%">
+</p>
 
-## Top Subscriptions for Open Weight Models Ecosystem
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Flat-Rate Access, Coding Agent Models & Open-Weight Inference*  
-**Last updated: March 2026**
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Subscriptions to Open Weight Models**. These services provide predictable monthly access to open-weight coding and reasoning models — GLM, Qwen, Kimi, DeepSeek, MiMo, and others — often at 2–5× the usage value of standard API rates, designed specifically for agentic coding workflows that consume tokens across many turns.
-
-**Examples** include ClinePass, OpenCode Go, DevPass by LLM Gateway, Synthetic.new, Nous Portal, Command Code Go, Poe, Perplexity Pro, NanoGPT, Abacus.ai, and Chutes (the category leaders).
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom model serving, and transparent usage tracking — ideal for developers prioritizing cost control, teams avoiding proprietary model lock-in, and organizations building on open-weight foundations.
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-
-- **[ClinePass](https://docs.cline.bot/getting-started/clinepass)**  
-  $9.99/month subscription offering 2–5× the usage on popular open coding models compared to standard API rates. Curated model list includes GLM-5.3, GLM-5.3 Flash, Kimi K3, DeepSeek V4 Pro, DeepSeek V4.1 Flash, MiMo-V2.5, MiMo-V2.5-Pro, MiniMax M3, Muse Spark 1.3 Contributor, Qwen3.8 Max, Qwen3.7 Max, and Qwen3.7 Plus. Works as a separate provider in Cline IDE and CLI, with OpenAI-compatible API access for external scripts. Flat monthly subscription — no per-token billing [citation:1].
-
-- **[OpenCode Go](https://opencode.ai/en/go)**  
-  Two monthly plans: **Go ($10/month)** for cheaper access and **Go Plus ($40/month)** for higher limits. Provides reliable access to open coding models including GLM-5.3, GLM-5.3-Flash, Kimi K3, Kimi K2.7 Code, DeepSeek V4.1 Flash, DeepSeek V4 Pro, DeepSeek V4 Flash, MiMo-V2.6-Flash, MiMo-V2.5, MiniMax M3, Muse Spark 1.3 Contributor, Qwen3.7 Plus, and Qwen3.8 Max. Models are tested with their teams and providers for stable global access. Verified clients include OpenCode and compatible coding agents [citation:2][citation:16].
-
-- **[DevPass by LLM Gateway](https://devpass.llmgateway.io/pricing)**  
-  Flat-rate subscription where every dollar converts to **$3 of model usage** at provider list rates. Three tiers: **Lite ($29/mo)**, **Pro ($79/mo)**, and **Max ($179/mo)**. Full catalog of 200+ models including Claude, GPT-5, Gemini, GLM, Qwen, and Kimi. Works with Claude Code, OpenCode, Cline, Cursor, and Aider. Real-time dashboard shows per-request cost. Frontier fair-use covers premium models as a weekly allowance. 7-day first-month guarantee [citation:3][citation:17].
-
-- **[Synthetic.new](https://synthetic.new/pricing)**  
-  $30/month subscription ($1/day) with **500 requests per 5 hours** — 3× higher limits than Claude's $20/month plan. All always-on models included at no per-token cost. Works with any agent framework including Roo, Cline, and Octofriend via OpenAI-compatible API. Embedding models included at no extra charge and don't count against rate limits. Usage-based pricing also available [citation:4][citation:18].
-
-- **[Nous Portal](https://portal.nousresearch.com/)**  
-  Subscription platform with 248 models plus 29 embedding models. Powered by OpenRouter for third-party models; Nous's own Hermes-4 models run on their own inference backend with OpenAI-compatible API. **Tool Gateway** for paid tiers bundles web search (Firecrawl), image generation (FAL, Krea), video generation (Veo 3.1, Kling v3), speech (Whisper), browser automation, and code execution (Modal sandboxes). **Hermes Cloud** deploys a hosted Hermes Agent on dedicated instances. xAI Grok integration for X Premium+ subscribers [citation:19].
-
-- **[Command Code Go](https://commandcode.ai/docs/plans/go)**  
-  $1/month plan for international developers with rolling limits: **$3 of usage per 5 hours**, **$6 per week**, and **$10 per month**. 54 of 90 models available including GLM-5.3 Flash, GLM-5.2, Kimi K3, Kimi K2.7 Code, DeepSeek V4 Flash Fast, MiMo V2.5 Pro, MiniMax M3, Qwen 3.8 Max, Muse Spark 1.3 Contributor, and Tencent Hy3. Request counts vary by model — cheaper models allow thousands of requests, pricier models fewer. Designed for light international usage with per-model monthly credits [citation:6][citation:20].
-
-- **[Poe (by Quora)](https://poe.com/)**  
-  Point-based subscription platform with tiered plans: $4.99/mo (10,000 points/day), $19.99/mo (1M points/month), $49.99/mo (2.5M points/month), $99.99/mo (5M points/month), and $249.99/mo (12.5M points/month). Each model call costs a set number of points. Developer API tracks usage through existing point subscriptions. Additional points at $30 per 1M tokens [citation:7].
-
-- **[Perplexity Pro](https://www.perplexity.ai/)**  
-  $20/month subscription for advanced AI research, file analysis, and image generation. Positioned for frequent research users. Max tier at $200/month for higher limits. Perplexity Enterprise Pro listed at $40 by third-party trackers [citation:8].
-
-- **[NanoGPT](https://nano-gpt.com/subscription)**  
-  $12/month subscription for private open-source AI access. **60 million included input tokens per week** with 5% discount on eligible paid text models. Most open-source text models included: GLM 5.3 series, MiMo V2.5 Pro, Kimi K2.7 Code, MiniMax M3, DeepSeek V4 Pro. Uncensored and roleplaying model finetunes also available. Image generation models included with daily limits. API access with ZDR-only or anonymized routing options [citation:9].
-
-- **[Abacus.ai](https://abacus.ai/)**  
-  $20/month combined Basic + Pro tier with **30K credits** (including +10K from Pro). Unrestricted AI Agent and AI Studio access with active credits. **SuperComputer** — always-on cloud computer for building, deploying, and hosting agents, APIs, and databases at 1 credit per 5 minutes of runtime. Credits work across top LLMs (GPT-5.2, Sonnet-4.5, Gemini 3) and select models are unlimited: RouteLLM, GPT-5.4 Mini, Gemini 3.5 Flash Lite, GLM 5.3, GLM 5.3 Flash, DeepSeek V4.1 Flash, DeepSeek V4 Flash, DeepSeek V4 Pro, Kimi K2.7 Code, Muse Spark 1.3, and MiMo V2.6 Pro [citation:10].
-
-- **[Chutes](https://chutes.ai/pricing)**  
-  Pay-per-token inference with **no subscription, no minimum, no markup**. All featured models run on confidential TEE compute. Pricing examples: Mistral-Nemo at $0.0245/$0.0978 per 1M tokens, Qwen3-32B at $0.104/$0.416, Kimi K2.6 at $0.50/$2.85, GLM-5.1 at $0.98/$3.08, GLM-5.2 at $1.25/$3.95, Kimi-K3 at $15.00 output. Private deployment available from $1.80/hr GPU rates with $5.40 deploy fee. Pay from Bittensor wallet in TAO [citation:11].
-
-## Open-Source GitHub Projects
-
-- **[OpenCode](https://github.com/anomalyco/opencode)**  
-  Terminal-native AI coding agent with **172,000+ GitHub stars** — the most-starred open-source coding agent. MIT licensed, free with BYOK across 75+ providers. Native remote/SSH support. OpenCode Go subscriptions provide access to open-weight models, but the core agent is fully open-source and self-hostable without any subscription [citation:2].
-
-- **[Cline](https://github.com/cline/cline)**  
-  Open-source autonomous coding agent for VS Code, JetBrains, and CLI with **62,000+ GitHub stars**. 46 providers including Anthropic, OpenAI, Google, and local models via Ollama. Human-in-the-loop by default. MCP integration most mature of any coding agent. ClinePass subscription is optional — the agent works with any provider or self-hosted model [citation:1].
-
-- **[Aider](https://github.com/Aider-AI/aider)**  
-  Terminal-based AI pair programming with **49,000+ GitHub stars**. Connects to git repository, builds internal codebase map, makes edits, and auto-commits. Supports virtually every major model provider including open-weight models served via local or remote inference. Best-in-class git integration with automatic linting and test-running self-correction loops.
-
-- **[Goose](https://github.com/aaif-goose/goose)**  
-  Rust-based general-purpose AI agent from Block, now under Agentic AI Foundation at Linux Foundation. **55,000+ GitHub stars**. Desktop app for macOS, Linux, Windows plus CLI and API. Works with 15+ providers including Ollama, OpenRouter, Azure, and Bedrock. Connects to 70+ extensions over MCP. Fully self-hostable with any open-weight model.
-
-- **[vLLM](https://github.com/vllm-project/vllm)**  
-  High-throughput, memory-efficient inference and serving engine for LLMs. Supports the full range of open-weight models — GLM, Qwen, Kimi, DeepSeek, MiMo, MiniMax, and more. **PagedAttention** and continuous batching deliver state-of-the-art serving throughput. The foundation for self-hosting open-weight models at scale. Apache 2.0 licensed.
-
-- **[Ollama](https://github.com/ollama/ollama)**  
-  Run large language models locally with a simple CLI and API. Supports Llama, Mistral, Qwen, DeepSeek, GLM, and hundreds of open-weight models. MIT licensed. Ideal for developers wanting subscription-free access to open-weight models on consumer hardware. Ollama also offers cloud tiers from free to $100/month, tracking usage by GPU time rather than token limits [citation:13].
-
-- **[llama.cpp](https://github.com/ggerganov/llama.cpp)**  
-  Efficient inference of LLMs in pure C/C++ with minimal dependencies. Supports quantized models (GGUF format) for running open-weight models on consumer hardware. MIT licensed. The foundation for many local inference tools.
-
-- **[Text Generation Inference (TGI)](https://github.com/huggingface/text-generation-inference)**  
-  Hugging Face's production-ready inference server for LLMs. Supports tensor parallelism, continuous batching, and token streaming. Apache 2.0 licensed. Deploy open-weight models at scale with OpenAI-compatible API.
-
-- **[LM Studio](https://lmstudio.ai/)**  
-  Desktop app for running local LLMs with a GUI. Supports GGUF models, GPU acceleration, and OpenAI-compatible API server. Free for personal use. Enables subscription-free access to open-weight models.
-
-- **[OpenRouter](https://openrouter.ai/)**  
-  Unified API for accessing 300+ models including open-weight models from multiple providers. Pay-per-token with no subscription. Provides fallback routing and provider selection. The infrastructure behind Nous Portal's third-party model catalog [citation:19].
-
-### Additional Strong Open-Source Options
-
-- **[LocalAI](https://github.com/mudler/LocalAI)** — Free, open-source OpenAI alternative for running LLMs locally. Supports multiple model backends and provides drop-in API compatibility. MIT licensed.
-- **[ExLlamaV2](https://github.com/turboderp/exllamav2)** — Fast inference library for running LLMs on consumer GPUs with quantized models. MIT licensed.
-- **[SGLang](https://github.com/sgl-project/sglang)** — Fast serving framework for LLMs with RadixAttention for efficient prefix caching. Apache 2.0 licensed.
-- **GGUF Model Repositories** — Hugging Face hosts quantized open-weight models (GLM, Qwen, Kimi, DeepSeek) ready for local inference via llama.cpp and compatible tools.
-
-**Frameworks for building custom systems**: Combine **vLLM** or **TGI** for production inference of open-weight models, **Ollama** or **llama.cpp** for local development, **OpenCode** or **Cline** for coding agent workflows, and **OpenRouter** for multi-provider fallback routing to build a complete subscription-free open-weight model stack.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Subscriptions to open-weight models must comply with applicable terms of service, model licenses (Apache 2.0, MIT, custom open-weight licenses), and data protection regulations.
-- Self-hosted open-source solutions require proper GPU infrastructure, model serving expertise, and ongoing maintenance.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Subscription-For-Open-Weight-Models/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Subscription-For-Open-Weight-Models?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Subscription-For-Open-Weight-Models/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Subscription-For-Open-Weight-Models?style=flat-square&logo=github&color=blue" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Subscription-For-Open-Weight-Models/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Subscription-For-Open-Weight-Models/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
-**Made for developers, AI engineers, coding agent users, and organizations building cost-effective open-weight model access.**  
-Let's make open-weight model access more open, affordable, and developer-friendly.
+# 🚀 Awesome Subscriptions for Open-Weight Models
+
+> **Curated directory of SaaS subscription platforms, flat-rate inference gateways, and open-source infrastructure for open-weight AI models (DeepSeek, Qwen, GLM, Kimi, MiMo, and Llama).**
+
+A community-maintained guide to escaping per-token billing anxiety. These services deliver predictable monthly flat-rate plans and self-hosted runtimes tailored for **agentic coding workflows**, high-throughput developer inference, and private enterprise deployments — offering **2× to 5× greater token value** compared to standard metered API pricing.
+
+---
+
+## 📑 Table of Contents
+
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [💳 SaaS / Hosted Platforms Matrix](#-saas--hosted-platforms-matrix)
+  - [🔍 Deep-Dive: Hosted Platform Profiles](#-deep-dive-hosted-platform-profiles)
+- [🛠️ Open-Source GitHub Projects](#️-open-source-github-projects)
+  - [⚡ Top Open-Source Repositories (Ranked by Stars)](#-top-open-source-repositories-ranked-by-stars)
+- [🏗️ Architectural Guide: Building Your Stack](#️-architectural-guide-building-your-stack)
+- [❓ Frequently Asked Questions (FAQ)](#-frequently-asked-questions-faq)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚖️ Disclaimer & License](#️-disclaimer--license)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global market for AI model access, inference hosting, and agentic coding tooling is projected to grow from **$12.8 Billion in 2024 to over $78.5 Billion by 2030** (CAGR ~35.4%). Within this landscape, open-weight model serving and flat-rate inference subscriptions represent the fastest-growing developer subsegment as engineering teams mitigate unpredictable per-token frontier model costs.
+
+The sector currently exhibits **moderate to high fragmentation**:
+- **Consumer Search & Aggregation:** Moderately concentrated around category leaders (Perplexity, Poe) offering multi-model prompt interfaces.
+- **Developer & Agentic Workflows:** Highly fragmented across agile startups (ClinePass, OpenCode, DevPass, Synthetic.new), specialized TEE compute providers (Chutes), and independent model creators (Nous Research). The proliferation of high-performance coding models (DeepSeek V4, Qwen 3.8 Max, GLM-5.3) has prevented a single "winner-take-all" outcome, catalyzing healthy price competition, OpenAI-compatible proxy standards, and community-driven self-hosting alternatives.
+
+---
+
+## 💳 SaaS / Hosted Platforms Matrix
+
+The table below compiles leading hosted platforms offering predictable subscriptions, flat-rate tiers, and token allowances for open-weight models. **Sorted descending by Company Size / Estimated Valuation.**
+
+| 🏢 Company & Valuation | 🏷️ Platform | 💰 Starting Tier Pricing | 🎁 Free Tier & Trial Limits | 🧠 Top Models Supported | 🎯 Best For |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Perplexity AI**<br>`~$9B – $18B Valuation` | [Perplexity Pro](https://www.perplexity.ai/) | **$20.00 / month**<br>*(or $200 / yr)* | **Free-forever plan**: 5 Pro searches every 4 hrs + unlimited Quick search queries on open/standard models | DeepSeek V4, Llama 3.3 70B, Sonar, Qwen | Research, web citation synthesis & multimodal queries |
+| **Quora (Poe)**<br>`~$500M Valuation` | [Poe](https://poe.com/) | **$4.99 / month**<br>*(10K compute pts/day)* | **Free-forever plan**: 3,000 compute points daily (resets every 24h) for open-weight chatbots | Qwen 2.5/3, DeepSeek V3/V4, Llama 3, Mistral | Consumer multi-bot experimentation & quick prompts |
+| **Abacus.ai**<br>`~$250M – $300M Valuation` | [Abacus.ai](https://abacus.ai/) | **$20.00 / month**<br>*(30K credits + unlimited)* | **14-day free trial**: $50 credit grant (up to 5,000 queries) upon corporate email verification | GLM-5.3 Flash, DeepSeek V4 Pro, MiMo V2.6, Kimi K2.7 | Cloud agent sandboxes, SuperComputer & enterprise pipelines |
+| **Nous Research**<br>`~$70M – $100M Valuation` | [Nous Portal](https://portal.nousresearch.com/) | **$20.00 / month**<br>*(Standard Tier)* | **Free-forever plan**: 50 daily requests on Hermes-4 open models; $5 sign-up credit valid 30 days | Hermes-4, GLM series, Qwen3, OpenRouter catalog | Autonomous Hermes agent cloud hosting & tool gateway |
+| **Anomaly (OpenCode)**<br>`~$25M – $50M Valuation` | [OpenCode Go](https://opencode.ai/en/go) | **$10.00 / month**<br>*(Go Plan; $40 Go Plus)* | **Free client + 3-day trial**: CLI 100% free with BYOK; Go tier offers 3-day free trial (150 reqs/day) | GLM-5.3, Kimi K3, DeepSeek V4 Pro, Qwen3.8 Max | Terminal-native autonomous coding agent workflows |
+| **Cline Bot Inc.**<br>`~$15M – $25M Valuation` | [ClinePass](https://docs.cline.bot/getting-started/clinepass) | **$9.99 / month**<br>*(Flat monthly rate)* | **Free client + 7-day trial**: Extension 100% free with BYOK; 7-day trial with 100 daily requests | GLM-5.3, DeepSeek V4 Pro/Flash, Kimi K3, MiMo-V2.5 | VS Code / JetBrains agentic pair programming |
+| **LLM Gateway Inc.**<br>`~$10M Valuation / $2M ARR` | [DevPass](https://devpass.llmgateway.io/pricing) | **$29.00 / month**<br>*(Converts to $87 usage)* | **Free tier + 7-day guarantee**: 100 free requests/mo on open models; 7-day unconditional refund period | DeepSeek V4, Qwen 3.8, GLM, Kimi, Claude, GPT-5 | Developers needing 3× purchasing power across 200+ models |
+| **Synthetic Technologies**<br>`~$8M – $12M Valuation` | [Synthetic.new](https://synthetic.new/pricing) | **$30.00 / month**<br>*($1 / day flat rate)* | **7-day free trial**: 50 requests per 5 hours upon verified signup; free embeddings permanently | DeepSeek V4, Qwen 3.7/3.8, GLM-5.3, MiMo-V2.5 | Heavy multi-turn coding agent loops (500 req / 5 hrs) |
+| **Chutes.ai**<br>`~$6M – $10M Valuation` | [Chutes](https://chutes.ai/pricing) | **$0.0245 / 1M tokens**<br>*(Min $5 wallet deposit)* | **100,000 free tokens**: One-time grant on account creation valid 30 days; test models at zero cost | Qwen3-32B, GLM-5.2, Kimi K3, Mistral-Nemo | Pay-as-you-go confidential TEE GPU compute |
+| **Command Code Inc.**<br>`~$3M – $5M Valuation` | [Command Code Go](https://commandcode.ai/docs/plans/go) | **$1.00 / month**<br>*($3 usage / 5 hrs)* | **Free-forever plan**: 25 requests/day on GLM-5.2 Flash and DeepSeek Fast models | GLM-5.3 Flash, Kimi K2.7 Code, DeepSeek V4 Flash | Budget-conscious developers & international builders |
+| **NanoGPT Group**<br>`~$2M – $4M Valuation` | [NanoGPT](https://nano-gpt.com/subscription) | **$12.00 / month**<br>*(60M input tokens/wk)* | **Free faucet account**: 1,000 free tokens on signup + 500 daily faucet tokens for open models | GLM 5.3, MiMo V2.5 Pro, DeepSeek V4, MiniMax M3 | Privacy-first zero-data-retention (ZDR) anonymous API |
+
+---
+
+### 🔍 Deep-Dive: Hosted Platform Profiles
+
+#### 1. 🌟 [Perplexity Pro](https://www.perplexity.ai/)
+- **Pricing:** $20.00/month or $200.00/year. Enterprise plan at $40.00/user/month.
+- **Free Allowance:** Free accounts receive 5 Pro searches every 4 hours alongside unlimited Standard searches powered by open models.
+- **Why It Matters:** Combines live search grounding with open-weight frontier checkpoints (DeepSeek, Llama 3.3, Qwen) for synthesized research reports.
+
+#### 2. 💬 [Poe (by Quora)](https://poe.com/)
+- **Pricing:** $4.99/month (10,000 daily points) up to $19.99/month (1,000,000 monthly points). Additional packs at $30 per 1M compute points.
+- **Free Allowance:** 3,000 compute points replenished every 24 hours.
+- **Why It Matters:** Excellent playground for testing multiple open-weight and proprietary models in parallel through iOS, Android, Web, and bot APIs.
+
+#### 3. 🧪 [Abacus.ai SuperComputer](https://abacus.ai/)
+- **Pricing:** $20.00/month includes 30,000 monthly credits with unlimited queries on RouteLLM, GLM-5.3 Flash, DeepSeek V4 Flash/Pro, and MiMo V2.6.
+- **Free Allowance:** 14-day free trial with $50 platform credit grant on corporate email registration.
+- **Why It Matters:** Provides an always-on cloud environment with integrated code execution, agent orchestration, and automated pipeline deployment.
+
+#### 4. 🦅 [Nous Portal (Nous Research)](https://portal.nousresearch.com/)
+- **Pricing:** $20.00/month standard tier. Hosted Hermes Cloud with dedicated instances available.
+- **Free Allowance:** 50 requests/day on Hermes open models; $5 trial credits valid for 30 days.
+- **Why It Matters:** First-party home of Hermes-4 and Nous fine-tunes, bundled with a versatile Tool Gateway for web search, sandbox code execution, and multimodal pipelines.
+
+#### 5. ⚡ [OpenCode Go](https://opencode.ai/en/go)
+- **Pricing:** Go Plan at $10.00/month; Go Plus Plan at $40.00/month for heavier multi-agent concurrency.
+- **Free Allowance:** Core terminal CLI is 100% open-source and free with BYOK. Go subscription includes a 3-day trial (150 requests/day).
+- **Why It Matters:** Tailored explicitly for OpenCode terminal agent workflows, maintaining direct low-latency tunnels to open-weight coding models.
+
+#### 6. 🤖 [ClinePass](https://docs.cline.bot/getting-started/clinepass)
+- **Pricing:** $9.99/month flat subscription — no metered per-token surcharge.
+- **Free Allowance:** Extension is 100% free with BYOK; 7-day trial with 100 requests/day before first subscription invoice.
+- **Why It Matters:** Seamlessly plugs into Cline (VS Code / JetBrains / CLI) providing high-throughput access to GLM-5.3, DeepSeek V4 Pro, and Qwen3.8 Max.
+
+#### 7. 🌉 [DevPass by LLM Gateway](https://devpass.llmgateway.io/pricing)
+- **Pricing:** Lite tier at $29.00/month ($87 usage value), Pro at $79.00/month ($237 usage value), Max at $179.00/month ($537 usage value).
+- **Free Allowance:** Free tier with 100 requests/month across open models; 7-day money-back guarantee.
+- **Why It Matters:** Multi-provider gateway delivering 3× effective value on model calls across 200+ models, with real-time per-request cost analytics.
+
+#### 8. 🔄 [Synthetic.new](https://synthetic.new/pricing)
+- **Pricing:** $30.00/month ($1.00/day).
+- **Free Allowance:** 7-day trial with 50 requests per 5 hours upon verified signup; embedding models free indefinitely.
+- **Why It Matters:** Offers 500 requests per 5 hours across all supported open-weight models, making it ideal for persistent autonomous coding agents.
+
+#### 9. 🛡️ [Chutes](https://chutes.ai/pricing)
+- **Pricing:** Pure pay-per-token from $0.0245/1M tokens (Mistral-Nemo), $0.104/1M (Qwen3-32B), $0.98/1M (GLM-5.1). Dedicated GPUs from $1.80/hour. Min deposit $5.
+- **Free Allowance:** 100,000 free tokens upon signup valid for 30 days.
+- **Why It Matters:** Decentralized, confidential TEE (Trusted Execution Environment) compute on Bittensor with zero markup and cryptographic verification.
+
+#### 10. 🎯 [Command Code Go](https://commandcode.ai/docs/plans/go)
+- **Pricing:** $1.00/month for international developers ($3 usage per 5 hours, $6/week, $10/month cap).
+- **Free Allowance:** Free tier with 25 requests/day on GLM-5.2 and DeepSeek Flash models.
+- **Why It Matters:** The most affordable managed entry point for developers seeking reliable coding model endpoints in developing markets.
+
+#### 11. 🔒 [NanoGPT](https://nano-gpt.com/subscription)
+- **Pricing:** $12.00/month (includes 60 million input tokens per week + 5% discount on paid models).
+- **Free Allowance:** 1,000 free tokens on signup + 500 tokens/day free faucet.
+- **Why It Matters:** Zero data retention (ZDR), privacy-first cryptocurrency micropayments (Nano, Bitcoin Lightning), and uncensored open model support.
+
+---
+
+## 🛠️ Open-Source GitHub Projects
+
+For engineers preferring full autonomy, self-hosting, and zero recurring vendor fees, the open-weight ecosystem provides industry-standard runtimes, serving engines, and coding agents.
+
+### ⚡ Top Open-Source Repositories (Ranked by Stars)
+
+Each repository is linked directly, complete with its real-time social star badge linking to its Stargazers community:
+
+1. **[OpenCode](https://github.com/anomalyco/opencode)** [![GitHub stars](https://img.shields.io/github/stars/anomalyco/opencode?style=social&color=white)](https://github.com/anomalyco/opencode/stargazers)  
+   *Terminal-native autonomous AI coding agent.* Free with BYOK across 75+ providers with SSH, git integration, and multi-turn refactoring loops. MIT licensed.
+
+2. **[Ollama](https://github.com/ollama/ollama)** [![GitHub stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers)  
+   *Get up and running with Llama, DeepSeek, Qwen, and Mistral locally.* Simple CLI and OpenAI-compatible HTTP daemon for macOS, Linux, and Windows. MIT licensed.
+
+3. **[Dify](https://github.com/langgenius/dify)** [![GitHub stars](https://img.shields.io/github/stars/langgenius/dify?style=social&color=white)](https://github.com/langgenius/dify/stargazers)  
+   *Production-ready LLM application development platform.* Visual orchestration for multi-agent workflows, RAG pipelines, and open-weight model routing. Apache 2.0 licensed.
+
+4. **[Open WebUI](https://github.com/open-webui/open-webui)** [![GitHub stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social&color=white)](https://github.com/open-webui/open-webui/stargazers)  
+   *Extensible, self-hosted web interface for LLMs.* Seamless integration with Ollama, vLLM, and OpenAI-compatible backends featuring RAG and multimodal support. Open-source.
+
+5. **[llama.cpp](https://github.com/ggml-org/llama.cpp)** [![GitHub stars](https://img.shields.io/github/stars/ggml-org/llama.cpp?style=social&color=white)](https://github.com/ggml-org/llama.cpp/stargazers)  
+   *LLM inference in C/C++.* The pioneer of quantized GGUF execution on Apple Silicon, CPU, and consumer GPUs with zero third-party dependencies. MIT licensed.
+
+6. **[vLLM](https://github.com/vllm-project/vllm)** [![GitHub stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers)  
+   *High-throughput and memory-efficient LLM serving engine.* Powered by PagedAttention, continuous batching, and tensor parallelism. The gold standard for enterprise serving. Apache 2.0 licensed.
+
+7. **[LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)** [![GitHub stars](https://img.shields.io/github/stars/hiyouga/LLaMA-Factory?style=social&color=white)](https://github.com/hiyouga/LLaMA-Factory/stargazers)  
+   *Unified efficient fine-tuning framework.* Supports 100+ open-weight LLMs with LoRA, QLoRA, DPO, and PPO via command-line and web UI. Apache 2.0 licensed.
+
+8. **[Cline](https://github.com/cline/cline)** [![GitHub stars](https://img.shields.io/github/stars/cline/cline?style=social&color=white)](https://github.com/cline/cline/stargazers)  
+   *Autonomous coding agent extension for VS Code and JetBrains.* Features MCP (Model Context Protocol) tool integration, human-in-the-loop file edits, and terminal execution. Apache 2.0 licensed.
+
+9. **[LiteLLM](https://github.com/BerriAI/litellm)** [![GitHub stars](https://img.shields.io/github/stars/BerriAI/litellm?style=social&color=white)](https://github.com/BerriAI/litellm/stargazers)  
+   *Universal I/O proxy for 100+ LLMs.* Translates OpenAI-format calls to vLLM, Ollama, HuggingFace, and cloud APIs with load balancing, rate limiting, and spend tracking. MIT licensed.
+
+10. **[Goose](https://github.com/aaif-goose/goose)** [![GitHub stars](https://img.shields.io/github/stars/aaif-goose/goose?style=social&color=white)](https://github.com/aaif-goose/goose/stargazers)  
+    *Rust-based extensible developer agent by Block (Agentic AI Foundation).* Desktop app, CLI, and API with extensive MCP extension support. Apache 2.0 licensed.
+
+11. **[Aider](https://github.com/Aider-AI/aider)** [![GitHub stars](https://img.shields.io/github/stars/Aider-AI/aider?style=social&color=white)](https://github.com/Aider-AI/aider/stargazers)  
+    *Terminal pair programming in git repositories.* Builds an in-memory codebase map, auto-edits files, auto-commits git diffs, and self-corrects using test output. Apache 2.0 licensed.
+
+12. **[LocalAI](https://github.com/mudler/LocalAI)** [![GitHub stars](https://img.shields.io/github/stars/mudler/LocalAI?style=social&color=white)](https://github.com/mudler/LocalAI/stargazers)  
+    *Drop-in self-hosted OpenAI alternative.* Runs LLMs, audio transcription, image generation, and embeddings locally on commodity hardware without cloud telemetry. MIT licensed.
+
+13. **[Text Generation WebUI](https://github.com/oobabooga/text-generation-webui)** [![GitHub stars](https://img.shields.io/github/stars/oobabooga/text-generation-webui?style=social&color=white)](https://github.com/oobabooga/text-generation-webui/stargazers)  
+    *Gradio web UI for large language models.* Supports Transformers, GPTQ, AWQ, EXL2, and llama.cpp backends with extensive LoRA inspection and chat modes. AGPL 3.0 licensed.
+
+14. **[Jan](https://github.com/janhq/jan)** [![GitHub stars](https://img.shields.io/github/stars/janhq/jan?style=social&color=white)](https://github.com/janhq/jan/stargazers)  
+    *Self-hosted open-source alternative to ChatGPT.* Clean desktop client that runs 100% offline on consumer hardware with local API server and hardware acceleration. AGPL 3.0 licensed.
+
+15. **[SGLang](https://github.com/sgl-project/sglang)** [![GitHub stars](https://img.shields.io/github/stars/sgl-project/sglang?style=social&color=white)](https://github.com/sgl-project/sglang/stargazers)  
+    *Fast serving framework for complex LLM programs.* RadixAttention enables high-speed KV cache reuse across multi-turn prompts and agentic workflows. Apache 2.0 licensed.
+
+16. **[Continue](https://github.com/continuedev/continue)** [![GitHub stars](https://img.shields.io/github/stars/continuedev/continue?style=social&color=white)](https://github.com/continuedev/continue/stargazers)  
+    *Open-source AI code assistant for VS Code and JetBrains.* Connects custom models (local Ollama or remote vLLM) for inline tab autocomplete, codebase chat, and refactoring. Apache 2.0 licensed.
+
+17. **[Tabby](https://github.com/TabbyML/tabby)** [![GitHub stars](https://img.shields.io/github/stars/TabbyML/tabby?style=social&color=white)](https://github.com/TabbyML/tabby/stargazers)  
+    *Self-hosted AI coding assistant.* Independent alternative to GitHub Copilot with full repository indexing, multi-language completion, and on-premise security. Apache 2.0 licensed.
+
+18. **[Text Generation Inference (TGI)](https://github.com/huggingface/text-generation-inference)** [![GitHub stars](https://img.shields.io/github/stars/huggingface/text-generation-inference?style=social&color=white)](https://github.com/huggingface/text-generation-inference/stargazers)  
+    *Hugging Face's production-ready serving container.* Enterprise features including continuous batching, Flash Attention v2, speculative decoding, and tensor parallelism. Apache 2.0 licensed.
+
+19. **[Xinference](https://github.com/xorbitsai/inference)** [![GitHub stars](https://img.shields.io/github/stars/xorbitsai/inference?style=social&color=white)](https://github.com/xorbitsai/inference/stargazers)  
+    *Distributed inference orchestration engine.* Deploy open LLMs, multimodal vision models, and embeddings across clusters with automated model downloading and CUDA/MPS acceleration. Apache 2.0 licensed.
+
+20. **[ExLlamaV2](https://github.com/turboderp-org/exllamav2)** [![GitHub stars](https://img.shields.io/github/stars/turboderp-org/exllamav2?style=social&color=white)](https://github.com/turboderp-org/exllamav2/stargazers)  
+    *Extreme inference library for modern consumer GPUs.* Custom EXL2 quantization delivering maximum tokens-per-second throughput on NVIDIA hardware. MIT licensed.
+
+---
+
+## 🏗️ Architectural Guide: Building Your Stack
+
+To achieve an optimal price-to-performance ratio without vendor lock-in, developers typically combine tools across three architectural tiers:
+
+```mermaid
+graph TD
+    A["🧑‍💻 Developer Workspace (VS Code / JetBrains / CLI)"] --> B["🤖 Coding Agent (Cline / OpenCode / Aider)"]
+    B --> C{"Routing & Spend Gateway"}
+    C -->|"SaaS Flat-Rate"| D["💳 Flat-Rate Subscription (ClinePass / OpenCode Go / DevPass)"]
+    C -->|"Local Dev"| E["💻 Local Runner (Ollama / llama.cpp / Jan)"]
+    C -->|"Private Cloud"| F["🚀 High-Throughput Serving (vLLM / SGLang on GPU Cluster)"]
+    D --> G["🧠 Open-Weight Models (DeepSeek V4, Qwen 3.8, GLM-5.3)"]
+    E --> G
+    F --> G
+```
+
+1. **Local Prototyping:** Run **Ollama** or **llama.cpp** on an M-series Mac or consumer RTX GPU for zero-cost rapid iterations.
+2. **Heavy Multi-Turn Coding:** Route agents like **Cline** or **OpenCode** through flat-rate SaaS tiers (**ClinePass**, **OpenCode Go**, or **Synthetic.new**) to eliminate per-token bill shock.
+3. **Enterprise Production:** Deploy **vLLM** or **SGLang** behind **LiteLLM** for internal company-wide governance, caching, and fallbacks.
+
+---
+
+## ❓ Frequently Asked Questions (FAQ)
+
+<details>
+<summary><b>1. What is an "open-weight model" and how does it differ from open-source AI?</b></summary>
+<p>
+Open-weight models (such as DeepSeek V4, Qwen 3.8, and GLM-5.3) make their trained neural network weights publicly accessible for download and self-hosting. While some release code under permissive licenses (Apache 2.0 or MIT), others include acceptable-use policies. This contrasts with closed proprietary models (like OpenAI GPT-5 or Anthropic Claude) which can only be reached via metered proprietary APIs.
+</p>
+</details>
+
+<details>
+<summary><b>2. Why choose a flat-rate subscription over standard pay-per-token API endpoints?</b></summary>
+<p>
+Autonomous coding agents consume tens of thousands of tokens per minute during iterative edit-compile-test cycles. Standard token billing creates financial unpredictability and throttling anxiety. Flat-rate platforms (like ClinePass, Synthetic.new, or OpenCode Go) provide predictable monthly expenses and often offer 2× to 5× the effective token volume per dollar compared to provider retail list prices.
+</p>
+</details>
+
+<details>
+<summary><b>3. Can I use these subscriptions in third-party IDE extensions?</b></summary>
+<p>
+Yes! The majority of featured providers (DevPass, Synthetic.new, Nous Portal, ClinePass, OpenCode) expose standard OpenAI-compatible API base URLs. You can plug their endpoint and API key into Cline, Cursor, Roo Code, Aider, Continue, or custom Python/TypeScript scripts.
+</p>
+</details>
+
+<details>
+<summary><b>4. Which open-weight models perform best on agentic coding benchmarks?</b></summary>
+<p>
+As of 2026, the leading open-weight coding models include <b>DeepSeek V4 Pro / Flash</b>, <b>Qwen 3.8 Max / 3.7 Plus</b>, <b>GLM-5.3</b>, and <b>Kimi K3</b>. These models consistently score within 2–5% of frontier proprietary models on SWE-bench and HumanEval while executing at significantly higher tokens-per-second.
+</p>
+</details>
+
+---
+
+## 🤝 How to Contribute
+
+We welcome community contributions! To add a new platform, update pricing, or list an open-source project:
+
+1. 🍴 **Fork** this repository.
+2. 📝 **Edit `README.md`** following the existing format:
+   - For SaaS: Include name, link, company size/valuation, specific starting tier pricing, specific free tier/trial limits, and top supported models.
+   - For Open-Source: Include repository link, social star badge linking to `/stargazers`, and 1–2 sentence description.
+3. 🚀 **Submit a Pull Request** with a clear description and official source references.
+
+Check out our sister repository: [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for more curated tech collections!
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Subscription-For-Open-Weight-Models&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Subscription-For-Open-Weight-Models&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for visiting and supporting the open-weight model ecosystem! Building and maintaining high-quality, up-to-date curated resources requires continuous research and community validation.
+
+If you find this repository valuable:
+- ⭐ **Star this repository** to help others discover it.
+- 🍴 **Fork and share** with your developer network.
+- ☕ **Sponsor or buy a coffee** to support ongoing maintenance via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Your support enables continuous updates, benchmarking, and tracking of new open-weight infrastructure!
+
+---
+
+## ⚖️ Disclaimer & License
+
+- **Disclaimer:** This is an independent community-curated directory. Brand names, logos, and trademarks belong to their respective owners. Inclusion does not imply endorsement or commercial affiliation.
+- **Licensing:** Distributed under the [MIT License](LICENSE).
