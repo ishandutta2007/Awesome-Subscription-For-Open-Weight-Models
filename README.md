@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Subscription-For-Open-Weight-Models/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Subscription-For-Open-Weight-Models?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Subscription-For-Open-Weight-Models/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Subscription-For-Open-Weight-Models?style=flat-square&logo=github&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Subscription-For-Open-Weight-Models/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Subscription-For-Open-Weight-Models?style=flat-square&logo=github&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Subscription-For-Open-Weight-Models/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Subscription-For-Open-Weight-Models/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
@@ -133,66 +133,66 @@ For engineers preferring full autonomy, self-hosting, and zero recurring vendor 
 
 ### ⚡ Top Open-Source Repositories (Ranked by Stars)
 
-Each repository is linked directly, complete with its real-time social star badge linking to its Stargazers community:
+Each repository is linked directly, complete with its real-time social Stars_Badge linking to its Stargazers community:
 
-1. **[OpenCode](https://github.com/anomalyco/opencode)** [![GitHub stars](https://img.shields.io/github/stars/anomalyco/opencode?style=social&color=white)](https://github.com/anomalyco/opencode/stargazers)  
+1. **[OpenCode](https://github.com/anomalyco/opencode)** [![GitHub_Stars](https://img.shields.io/github/stars/anomalyco/opencode?style=social&color=white)](https://github.com/anomalyco/opencode/stargazers)  
    *Terminal-native autonomous AI coding agent.* Free with BYOK across 75+ providers with SSH, git integration, and multi-turn refactoring loops. MIT licensed.
 
-2. **[Ollama](https://github.com/ollama/ollama)** [![GitHub stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers)  
+2. **[Ollama](https://github.com/ollama/ollama)** [![GitHub_Stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers)  
    *Get up and running with Llama, DeepSeek, Qwen, and Mistral locally.* Simple CLI and OpenAI-compatible HTTP daemon for macOS, Linux, and Windows. MIT licensed.
 
-3. **[Dify](https://github.com/langgenius/dify)** [![GitHub stars](https://img.shields.io/github/stars/langgenius/dify?style=social&color=white)](https://github.com/langgenius/dify/stargazers)  
+3. **[Dify](https://github.com/langgenius/dify)** [![GitHub_Stars](https://img.shields.io/github/stars/langgenius/dify?style=social&color=white)](https://github.com/langgenius/dify/stargazers)  
    *Production-ready LLM application development platform.* Visual orchestration for multi-agent workflows, RAG pipelines, and open-weight model routing. Apache 2.0 licensed.
 
-4. **[Open WebUI](https://github.com/open-webui/open-webui)** [![GitHub stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social&color=white)](https://github.com/open-webui/open-webui/stargazers)  
+4. **[Open WebUI](https://github.com/open-webui/open-webui)** [![GitHub_Stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social&color=white)](https://github.com/open-webui/open-webui/stargazers)  
    *Extensible, self-hosted web interface for LLMs.* Seamless integration with Ollama, vLLM, and OpenAI-compatible backends featuring RAG and multimodal support. Open-source.
 
-5. **[llama.cpp](https://github.com/ggml-org/llama.cpp)** [![GitHub stars](https://img.shields.io/github/stars/ggml-org/llama.cpp?style=social&color=white)](https://github.com/ggml-org/llama.cpp/stargazers)  
+5. **[llama.cpp](https://github.com/ggml-org/llama.cpp)** [![GitHub_Stars](https://img.shields.io/github/stars/ggml-org/llama.cpp?style=social&color=white)](https://github.com/ggml-org/llama.cpp/stargazers)  
    *LLM inference in C/C++.* The pioneer of quantized GGUF execution on Apple Silicon, CPU, and consumer GPUs with zero third-party dependencies. MIT licensed.
 
-6. **[vLLM](https://github.com/vllm-project/vllm)** [![GitHub stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers)  
+6. **[vLLM](https://github.com/vllm-project/vllm)** [![GitHub_Stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers)  
    *High-throughput and memory-efficient LLM serving engine.* Powered by PagedAttention, continuous batching, and tensor parallelism. The gold standard for enterprise serving. Apache 2.0 licensed.
 
-7. **[LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)** [![GitHub stars](https://img.shields.io/github/stars/hiyouga/LLaMA-Factory?style=social&color=white)](https://github.com/hiyouga/LLaMA-Factory/stargazers)  
+7. **[LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)** [![GitHub_Stars](https://img.shields.io/github/stars/hiyouga/LLaMA-Factory?style=social&color=white)](https://github.com/hiyouga/LLaMA-Factory/stargazers)  
    *Unified efficient fine-tuning framework.* Supports 100+ open-weight LLMs with LoRA, QLoRA, DPO, and PPO via command-line and web UI. Apache 2.0 licensed.
 
-8. **[Cline](https://github.com/cline/cline)** [![GitHub stars](https://img.shields.io/github/stars/cline/cline?style=social&color=white)](https://github.com/cline/cline/stargazers)  
+8. **[Cline](https://github.com/cline/cline)** [![GitHub_Stars](https://img.shields.io/github/stars/cline/cline?style=social&color=white)](https://github.com/cline/cline/stargazers)  
    *Autonomous coding agent extension for VS Code and JetBrains.* Features MCP (Model Context Protocol) tool integration, human-in-the-loop file edits, and terminal execution. Apache 2.0 licensed.
 
-9. **[LiteLLM](https://github.com/BerriAI/litellm)** [![GitHub stars](https://img.shields.io/github/stars/BerriAI/litellm?style=social&color=white)](https://github.com/BerriAI/litellm/stargazers)  
+9. **[LiteLLM](https://github.com/BerriAI/litellm)** [![GitHub_Stars](https://img.shields.io/github/stars/BerriAI/litellm?style=social&color=white)](https://github.com/BerriAI/litellm/stargazers)  
    *Universal I/O proxy for 100+ LLMs.* Translates OpenAI-format calls to vLLM, Ollama, HuggingFace, and cloud APIs with load balancing, rate limiting, and spend tracking. MIT licensed.
 
-10. **[Goose](https://github.com/aaif-goose/goose)** [![GitHub stars](https://img.shields.io/github/stars/aaif-goose/goose?style=social&color=white)](https://github.com/aaif-goose/goose/stargazers)  
+10. **[Goose](https://github.com/aaif-goose/goose)** [![GitHub_Stars](https://img.shields.io/github/stars/aaif-goose/goose?style=social&color=white)](https://github.com/aaif-goose/goose/stargazers)  
     *Rust-based extensible developer agent by Block (Agentic AI Foundation).* Desktop app, CLI, and API with extensive MCP extension support. Apache 2.0 licensed.
 
-11. **[Aider](https://github.com/Aider-AI/aider)** [![GitHub stars](https://img.shields.io/github/stars/Aider-AI/aider?style=social&color=white)](https://github.com/Aider-AI/aider/stargazers)  
+11. **[Aider](https://github.com/Aider-AI/aider)** [![GitHub_Stars](https://img.shields.io/github/stars/Aider-AI/aider?style=social&color=white)](https://github.com/Aider-AI/aider/stargazers)  
     *Terminal pair programming in git repositories.* Builds an in-memory codebase map, auto-edits files, auto-commits git diffs, and self-corrects using test output. Apache 2.0 licensed.
 
-12. **[LocalAI](https://github.com/mudler/LocalAI)** [![GitHub stars](https://img.shields.io/github/stars/mudler/LocalAI?style=social&color=white)](https://github.com/mudler/LocalAI/stargazers)  
+12. **[LocalAI](https://github.com/mudler/LocalAI)** [![GitHub_Stars](https://img.shields.io/github/stars/mudler/LocalAI?style=social&color=white)](https://github.com/mudler/LocalAI/stargazers)  
     *Drop-in self-hosted OpenAI alternative.* Runs LLMs, audio transcription, image generation, and embeddings locally on commodity hardware without cloud telemetry. MIT licensed.
 
-13. **[Text Generation WebUI](https://github.com/oobabooga/text-generation-webui)** [![GitHub stars](https://img.shields.io/github/stars/oobabooga/text-generation-webui?style=social&color=white)](https://github.com/oobabooga/text-generation-webui/stargazers)  
+13. **[Text Generation WebUI](https://github.com/oobabooga/text-generation-webui)** [![GitHub_Stars](https://img.shields.io/github/stars/oobabooga/text-generation-webui?style=social&color=white)](https://github.com/oobabooga/text-generation-webui/stargazers)  
     *Gradio web UI for large language models.* Supports Transformers, GPTQ, AWQ, EXL2, and llama.cpp backends with extensive LoRA inspection and chat modes. AGPL 3.0 licensed.
 
-14. **[Jan](https://github.com/janhq/jan)** [![GitHub stars](https://img.shields.io/github/stars/janhq/jan?style=social&color=white)](https://github.com/janhq/jan/stargazers)  
+14. **[Jan](https://github.com/janhq/jan)** [![GitHub_Stars](https://img.shields.io/github/stars/janhq/jan?style=social&color=white)](https://github.com/janhq/jan/stargazers)  
     *Self-hosted open-source alternative to ChatGPT.* Clean desktop client that runs 100% offline on consumer hardware with local API server and hardware acceleration. AGPL 3.0 licensed.
 
-15. **[SGLang](https://github.com/sgl-project/sglang)** [![GitHub stars](https://img.shields.io/github/stars/sgl-project/sglang?style=social&color=white)](https://github.com/sgl-project/sglang/stargazers)  
+15. **[SGLang](https://github.com/sgl-project/sglang)** [![GitHub_Stars](https://img.shields.io/github/stars/sgl-project/sglang?style=social&color=white)](https://github.com/sgl-project/sglang/stargazers)  
     *Fast serving framework for complex LLM programs.* RadixAttention enables high-speed KV cache reuse across multi-turn prompts and agentic workflows. Apache 2.0 licensed.
 
-16. **[Continue](https://github.com/continuedev/continue)** [![GitHub stars](https://img.shields.io/github/stars/continuedev/continue?style=social&color=white)](https://github.com/continuedev/continue/stargazers)  
+16. **[Continue](https://github.com/continuedev/continue)** [![GitHub_Stars](https://img.shields.io/github/stars/continuedev/continue?style=social&color=white)](https://github.com/continuedev/continue/stargazers)  
     *Open-source AI code assistant for VS Code and JetBrains.* Connects custom models (local Ollama or remote vLLM) for inline tab autocomplete, codebase chat, and refactoring. Apache 2.0 licensed.
 
-17. **[Tabby](https://github.com/TabbyML/tabby)** [![GitHub stars](https://img.shields.io/github/stars/TabbyML/tabby?style=social&color=white)](https://github.com/TabbyML/tabby/stargazers)  
+17. **[Tabby](https://github.com/TabbyML/tabby)** [![GitHub_Stars](https://img.shields.io/github/stars/TabbyML/tabby?style=social&color=white)](https://github.com/TabbyML/tabby/stargazers)  
     *Self-hosted AI coding assistant.* Independent alternative to GitHub Copilot with full repository indexing, multi-language completion, and on-premise security. Apache 2.0 licensed.
 
-18. **[Text Generation Inference (TGI)](https://github.com/huggingface/text-generation-inference)** [![GitHub stars](https://img.shields.io/github/stars/huggingface/text-generation-inference?style=social&color=white)](https://github.com/huggingface/text-generation-inference/stargazers)  
+18. **[Text Generation Inference (TGI)](https://github.com/huggingface/text-generation-inference)** [![GitHub_Stars](https://img.shields.io/github/stars/huggingface/text-generation-inference?style=social&color=white)](https://github.com/huggingface/text-generation-inference/stargazers)  
     *Hugging Face's production-ready serving container.* Enterprise features including continuous batching, Flash Attention v2, speculative decoding, and tensor parallelism. Apache 2.0 licensed.
 
-19. **[Xinference](https://github.com/xorbitsai/inference)** [![GitHub stars](https://img.shields.io/github/stars/xorbitsai/inference?style=social&color=white)](https://github.com/xorbitsai/inference/stargazers)  
+19. **[Xinference](https://github.com/xorbitsai/inference)** [![GitHub_Stars](https://img.shields.io/github/stars/xorbitsai/inference?style=social&color=white)](https://github.com/xorbitsai/inference/stargazers)  
     *Distributed inference orchestration engine.* Deploy open LLMs, multimodal vision models, and embeddings across clusters with automated model downloading and CUDA/MPS acceleration. Apache 2.0 licensed.
 
-20. **[ExLlamaV2](https://github.com/turboderp-org/exllamav2)** [![GitHub stars](https://img.shields.io/github/stars/turboderp-org/exllamav2?style=social&color=white)](https://github.com/turboderp-org/exllamav2/stargazers)  
+20. **[ExLlamaV2](https://github.com/turboderp-org/exllamav2)** [![GitHub_Stars](https://img.shields.io/github/stars/turboderp-org/exllamav2?style=social&color=white)](https://github.com/turboderp-org/exllamav2/stargazers)  
     *Extreme inference library for modern consumer GPUs.* Custom EXL2 quantization delivering maximum tokens-per-second throughput on NVIDIA hardware. MIT licensed.
 
 ---
@@ -258,7 +258,7 @@ We welcome community contributions! To add a new platform, update pricing, or li
 1. 🍴 **Fork** this repository.
 2. 📝 **Edit `README.md`** following the existing format:
    - For SaaS: Include name, link, company size/valuation, specific starting tier pricing, specific free tier/trial limits, and top supported models.
-   - For Open-Source: Include repository link, social star badge linking to `/stargazers`, and 1–2 sentence description.
+   - For Open-Source: Include repository link, social Stars_Badge linking to `/stargazers`, and 1–2 sentence description.
 3. 🚀 **Submit a Pull Request** with a clear description and official source references.
 
 Check out our sister repository: [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for more curated tech collections!
