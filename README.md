@@ -1,6 +1,6 @@
 # Awesome-Subscription-For-Open-Weight-Models
 
-# Top Subscriptions for Open Weight Models Ecosystem
+## Top Subscriptions for Open Weight Models Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Flat-Rate Access, Coding Agent Models & Open-Weight Inference*  
